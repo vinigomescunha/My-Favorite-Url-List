@@ -1,0 +1,62 @@
+body {
+    background-color: #ffffff;
+    min-width: 400px
+}
+
+.layer {
+    padding: 20px;
+}
+
+.layer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.item {
+    padding: 5px;
+}
+
+.item img {
+    margin-right: 10px;
+    max-width: 32px;
+    display: inline-block;
+}
+
+.item a {
+    width: 85%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bar {
+    display: block;
+    text-align: center;
+}
+
+.bar div {
+    width: 49%;
+    display: inline-block;
+}
+
+.bar .left {
+    text-align: left;
+}
+
+.bar .right {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+.large-item {
+    font-size: 5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin: 1vw;
+}
+
+.ptr {
+    cursor: pointer;
+}
