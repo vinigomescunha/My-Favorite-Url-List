@@ -5,3 +5,4 @@
 manifest format : https://developer.chrome.com/extensions/manifest
 
 
+directory: crx/my_favorite_list.crx
