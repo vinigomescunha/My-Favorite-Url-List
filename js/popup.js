@@ -53,7 +53,7 @@ class Popup {
   }
   openConfig(event) {
     chrome.runtime.sendMessage({
-      type: 'request_password'
+      type: 'request_configuration'
     });
   }
 };
