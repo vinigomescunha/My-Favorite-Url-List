@@ -14,7 +14,7 @@ chrome
     }
   );
 chrome.runtime.onMessage.addListener(function (request) {
-  if (request.type === 'request_password') {
+  if (request.type === 'request_configuration') {
     chrome.tabs.create({
       url: chrome.extension.getURL('html/config.html'),
       active: false
